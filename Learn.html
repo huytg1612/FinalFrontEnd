@@ -1,0 +1,318 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Unreal Engine | Education</title>
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" type="text/css" href="CSS/aos.css">
+
+<link rel="stylesheet" type="text/css" href="CSS/CSS-learn.css">
+<link rel="stylesheet" type="text/css" href="CSS/Reponsive-learn.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+<link rel="shortcut icon" type="image/x-icon" href="Images/x-icon.png">
+</head>
+
+<body>
+	<nav>
+		<a href="#"><img id="Unreal-Icon" src="Images/Epic-Game-Icon.png"></a>
+		<a href="main.html" class="Store-Name">UNREAL ENGINE</a>
+		<div id="menu">
+			<a id="News" href="#">NEWS</a>
+			<a id="About" href="#">ABOUT</a>
+			<a id="Learn" href="Learn.html">LEARN</a>
+			<a id="Community" href="Community.html">COMMUNITY</a>
+			<a id="Marketplace" href="Store.html">MARKETPLACE</a>
+			<a id="Enterprise" href="Enterprise.html">ENTERPRISE</a>
+		</div>
+			<div class="Download-block">
+				<a id="Download" href="#">DOWNLOAD</a>
+			</div>
+			<a href="SignIn.html" target="_blank" id="Login">LOG IN</a>
+			<img src="Images/Login-Icon.png" id="Login-icon">
+			<button id="Search-Button" onClick="appearSearchBlock()">
+				<img src="Images/Search-Icon-1.png" id="Search-icon">
+			</button>
+			<div id="Search">
+				<button id="hidden-Search-Bar" onClick="hiddenSearchBlock()">X</button>
+				<input type="text" placeholder="Search..." id="Search-Block">
+			</div>
+	</nav>
+	<article class="Background-Video">
+		<video  autoplay muted loop class="myVideo">
+			<source src="Video/background-video.mp4" type="video/mp4">
+		</video>
+		<p id="Text-On-Video">
+			Unreal Engine For Education
+		</p>
+		<div id="Intro">
+			<p>Free to use, Unreal Engine 4 can be downloaded and installed to classroom computers as well as personal systems at no cost. With full access to the complete source code and tools, Unreal Engine 4 levels the playing field to give everyone the resources needed to learn professional-quality development. In addition, schools and students receive regular updates, making it easy to stay current with the latest in development for games, cinematic content, visualization and real-time production. For complete details, visit the <span>FAQ.</span></p>
+		</div>
+	</article>
+	<article id="Your-Level">
+		<h2 class="Title">
+			ARE YOU A STUDENT, EDUCATOR OR ADMINISTRATOR?
+		</h2>
+		<div class="Level">
+			<h3 class="Name-Level">
+				STUDENTS
+			</h3>
+			<p>
+				From games to architecture, film/television and manufacturing, Epic is committed to supporting you on your career journey both now and in the future
+			</p>
+			<div class="Learn-More">
+				<h3>
+					LEARN MORE
+				</h3>
+			</div>
+		</div>
+		<div class="Level">
+			<h3 class="Name-Level">
+				EDUCATORS
+			</h3>
+			<p>
+				Lean on our learning resources, discover valuable documentation and access clear content examples to instruct your students.
+			</p>
+			<div class="Learn-More">
+				<h3>
+					LEARN MORE
+				</h3>
+			</div>
+		</div>
+		<div class="Level">
+			<h3 class="Name-Level">
+				ADMINISTRATORS
+			</h3>
+			<p>
+				Put the proven power of Unreal Engine 4 at your student's fingertips.
+			</p>
+			<div class="Learn-More">
+				<h3>
+					LEARN MORE
+				</h3>
+			</div>
+		</div>
+		<p class="link">
+			See what students are creating in Unreal Engine 4 <span>right here</span>, right now!
+		</p>
+	</article>
+	<article id="News-Content">
+		<h2 class="Title">
+			NEWS
+		</h2>
+		<div class="Content-Row">
+			<div class="Content">
+				<div class="img-hover"></div>
+				<img src="Images/Content/Content-1.jpg">
+				<p class="Date">Sep 27, 2018</p>
+				<h3 class="Content-title">Instructor Designs Motion Capture Classroom Using Unreal Engine 4</h3>
+				<p class="Content-text">We catch up with Deepak Chetty - a full-time teacher at University of Texas at Austin in the Radio/Television/Film (RTF) department to learn more about a motion capture studio class that uses Unreal Engine 4 to educate and inspire students.</p>
+			</div>
+			<div class="Content">
+				<div class="img-hover"></div>
+				<img src="Images/Content/Content-2.jpg">
+				<p class="Date">Sep 20, 2018</p>
+				<h3 class="Content-title">Join Epic Games at </h3>
+				<h3 class="Content-title">SketchUp’s 3D Basecamp 2018 Conference </h3>
+				<p class="Content-text">Are you ready for SketchUp’s biennial 3D Basecamp conference? Join the Unreal Engine team and SketchUp’s inspiring 3D modeling community for four days of design innovation, exciting presentations, and networking activities!</p>
+			</div>
+			<div class="Content">
+				<div class="img-hover"></div>
+				<img src="Images/Content/Content-3.jpg">
+				<p class="Date">Sep 18, 2018</p>
+				<h3 class="Content-title">Trends in Real-Time</h3>
+				<h3 class="Content-title">Rendering: Forrester</h3>
+				<h3 class="Content-title">Report</h3>
+				<p class="Content-text">What are the emerging trends in real-time rendering? The answers from our latest survey might surprise you. AI, big data, and employee satisfaction all play a role in the accelerating adoption of real-time rendering in enterprise fields.</p>
+			</div>
+			<div class="Content">
+				<div class="img-hover"></div>
+				<img src="Images/Content/Content-4.jpg">
+				<p class="Date">Sep 17, 2018</p>
+				<h3 class="Content-title">Unreal Studio Beta Extended</h3>
+				<p class="Content-text">The free Unreal Studio beta, launched in March 2018, has already helped thousands of designers, artists, and creatives build exciting new content with Unreal Engine. Now, we’re extending the beta to September 2019!</p>
+			</div>
+		</div>
+		<div id="Animation-Content">
+			<div class="Content-Row">
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-5.jpg">
+					<p class="Date">Sep 11, 2018</p>
+					<h3 class="Content-title">Decommissioning Video Tutorials on the Documentation Site</h3>
+					<p class="Content-text">We recently launched a new online learning site that better facilitates our vision for video tutorials and provides a learning resource worthy of Unreal Engine.</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-6.jpg">
+					<p class="Date">Aug 28, 2018</p>
+					<h3 class="Content-title">Stunning Student Film Short Showcases the Creative Power of Unreal Engine</h3>
+					<p class="Content-text">It doesn’t always take a massive team to make visual magic. Eric Liu’s masterful student project, Robots’ Design Academy, uses Unreal Engine to weave a charming tale of robotic rebellion.</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-7.jpg">
+					<p class="Date">Aug 18, 2018</p>
+					<h3 class="Content-title">Balancing Blueprint and C++</h3>
+					<p class="Content-text">Should you use Blueprints or C++ for your game’s architecture? The answer isn’t always straightforward. We’ve put together a guide to help you answer this question and a sample RPG to illustrate.</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-8.jpg">
+					<p class="Date">Aug 16, 2018</p>
+					<h3 class="Content-title">Unreal Engine 4 Instructor Guides are Now Available</h3>
+					<p class="Content-text">Free, official Unreal Engine 4 Instructors’ Guides are now available for download. These Epic-approved guides are complete with lectures, class notes, assessments, a terminology section and much more!</p>
+				</div>
+			</div>
+			<div class="Content-Row">
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-9.jpg">
+					<p class="Date">Aug 14, 2018</p>
+					<h3 class="Content-title">Announcing Unreal Engine Online Learning</h3>
+					<p class="Content-text">Mastering Unreal Engine just got a whole lot easier! Our new online learning platform features video tutorials, industry tracks, and downloadable tutorial files for a variety of UE4 workflows. And it’s open to everyone, for free!</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-10.jpg">
+					<p class="Date">Aug 9, 2018</p>
+					<h3 class="Content-title">Unreal Engine Developers Earn Top Honors in the 2018 ‘Rookie of the Year’ Awards</h3>
+					<p class="Content-text">The Rookies is an annual awards and mentor platform where creative students in games, animation, film, VR, motion graphics and architecture visualization compete for the coveted title of “Rookie of the Year”</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-11.jpg">
+					<p class="Date">Aug 6, 2018</p>
+					<h3 class="Content-title">Join Unreal Enterprise at SIGGRAPH 2018!</h3>
+					<p class="Content-text">From expert tech talks and hands-on demos to training sessions and more, there’s a lot of exciting things happening with Unreal Enterprise at SIGGRAPH this year. Come join us!</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-12.jpg">
+					<p class="Date">Jul 31, 2018</p>
+					<h3 class="Content-title">Embarking on an </h3>
+					<h3 class="Content-title">Emotional Journey in the Student Game “Hollowed”</h3>
+					<p class="Content-text">Explore the making of 'Hollowed', an inspirational UE4 game developed by students at Florida Interactive Entertainment Academy, which takes players on a journey of discovery through the emotional stages of grief.</p>
+				</div>
+			</div>
+			<div class="Content-Row">
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-13.jpg">
+					<p class="Date">Jul 27, 2018</p>
+					<h3 class="Content-title">SketchUp + Unreal Engine + Unreal Studio = Your Design Potential Realized</h3>
+					<p class="Content-text">Unlock your creative potential by using SketchUp and Unreal Studio to accelerate real time design visualizations in Unreal Engine with our upcoming webinar!</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-14.jpg">
+					<p class="Date">May 8, 2018</p>
+					<h3 class="Content-title">Creating an Amazing Product Configurator in Unreal Engine Using Blueprints</h3>
+					<p class="Content-text">Learn how to create an engaging product configurator in Unreal Engine using the accessible Blueprint visual scripting system in our upcoming webinar!</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-15.jpg">
+					<p class="Date">Apr 19, 2018</p>
+					<h3 class="Content-title">Join us for Unreal </h3>
+					<h3 class="Content-title">Academy: Enterprise </h3>
+					<p class="Content-text">Unlock the power of Unreal Engine for Enterprise in our upcoming two-day training event. You won’t want to miss Unreal Academy: Enterprise 2018!</p>
+				</div>
+				<div class="Content">
+					<div class="img-hover"></div>
+					<img src="Images/Content/Content-16.jpg">
+					<p class="Date">Apr 17, 2018</p>
+					<h3 class="Content-title">Epic Games’ Sergey </h3>
+					<h3 class="Content-title">Galyonkin to Keynote East Coast Game Conference</h3>
+					<p class="Content-text">Plus, Epic to exhibit at the expo and give talks in the Unreal Theater, which will offer strategic direction to aspiring and independent developers</p>
+				</div>
+			</div>
+		</div>
+		<center>
+			<div id="See-More" onClick="clickContent()">
+				<h4 id="Text-See">See all news</h4>
+			</div>			
+		</center>
+	</article>
+	<article id="Platforms">
+		<h2>Learn the Engine Used by Pros</h2>
+		<p>Developers and publishers across the world use Unreal Engine for professional quality, high-end games on PC, consoles, VR and mobile devices. No other commercial engine is used by more large scale professional development teams. Our partners include:</p>
+	</article>
+	<article class="bottom">
+		<div class="left-bottom">
+			<div class="sub-left" data-aos="fade-right">
+				<p class="sub-left-title">Get Started Today</p>
+				<p class="sub-left-content">We'd love to hear from you. Drop us a line at</p>
+				<p class="sub-left-content">UEAcademia@epicgames.com</p>
+				<center>
+					<div class="Get-Unreal">
+						<p>GET UNREAL</p>
+					</div>
+				</center>
+				<p class="sub-left-content">Read up on the licensing terms for Education along </p>
+				<p class="sub-left-content">with other top questions about Unreal Engine. </p>
+				<p class="sub-left-content"><span class="span-bottom">View the FAQ</span></p>
+			</div>
+		</div>
+		<div class="right-bottom">
+			<div class="sub-right" data-aos="flip-right">
+				<p class="sub-right-title">Keep up to date</p>
+				<p class="sub-right-content">Get educator-focused news and updates direct from </p>
+				<p class="sub-right-content">Epic Games with the Education Newsletter.</p>
+				<center>
+					<div class="Get-Unreal">
+						<p>SIGN IN</p>
+					</div>
+				</center>
+				<p class="sub-right-content">Sign Up For The Education Newsletter</p>
+				<p class="sub-right-content">Let's make the world Unreal</p>
+				<p class="sub-right-content"><span class="span-bottom">Privacy Policy</span></p>
+			</div>
+		</div>
+	</article>
+	
+	<footer>
+		<div class="Social-Icon">
+			<i class="fab fa-twitter"></i>
+			<i class="fab fa-facebook"></i>
+			<i class="fab fa-twitch"></i>
+			<i class="fab fa-instagram"></i>
+			<i class="fab fa-youtube"></i>
+		</div>
+		<div class="left">
+			<p>Features</p>
+			<p>Logo & Branding</p>
+			<p>Roadmap</p>
+			<p>Education</p>
+		</div>
+		<div class="left1">
+			<p>Academic Partners</p>
+			<p>More Resources</p>
+			<p>Awards</p>
+			<p>Custom License Terms</p>
+		</div>
+		<div id="Right-Blue-Box">
+			<p>SIGN UP FOR UNREAL ENGINE NEWS</p>
+		</div>
+		<div id="divide"></div>
+		<div id="text-resource">
+			<p>© 2004-2018, Epic Games, Inc. All rights reserved. Unreal and its logo are Epic’s trademarks or registered</p>
+			<p>trademarks in the US and elsewhere.</p>
+		</div>
+		<div id="Bottom-Footer">
+			<a href="#">Terms of Service</a>
+			<a href="#" style="margin-left: 50px;">Privacy Policye</a>
+		</div>
+	</footer>
+	
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script src="JS/aos.js"></script>
+<script type="text/javascript">AOS.init({
+		offset: 200,
+		duration: 1000,
+	});</script>
+<script type="text/javascript" src="JS/JS-learn.js"></script>
+</body>
+</html>

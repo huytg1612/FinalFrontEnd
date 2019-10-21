@@ -1,0 +1,586 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: titleFont;
+	src: url(../Fonts/EurostileBQ-Regular.otf);
+}
+@font-face{
+	font-family: titleFont-ULlight;
+	src: url(../Fonts/EurostileNextLTPro-UltLight.otf);
+}
+@font-face{
+	font-family: titleFont-light;
+	src: url(../Fonts/../Fonts/EurostileNextLTPro-Light.otf);
+}
+
+body{
+	padding: 0px;
+	margin: 0px;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(18,18,18,0.93);
+}
+#Unreal-Icon{
+	float:left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.Store-Name{
+	float: left;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	margin-right: 40px;
+}
+#News{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Learn{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#About{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Community{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Marketplace{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Enterprise{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+a#News:hover,a#New:focus{color: rgba(84,153,225,1.00);}
+a#About:hover,a#About:focus{color: rgba(84,153,225,1.00);}
+a#Learn:hover,a#Learn:focus{color: rgba(84,153,225,1.00);}
+a#Marketplace:hover,a#Marketplace:focus{color: rgba(84,153,225,1.00);}
+a#Community:hover,a#Community:focus{color: rgba(84,153,225,1.00);}
+a#Enterprise:hover,a#Enterprise:focus{color: rgba(84,153,225,1.00);}
+#Login-icon{
+	float:right;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+#Login{
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+	float:right;
+}
+#Search-icon{
+	filter: grayscale(100%);
+	width: 20px;
+	height: 20px;
+	float:right;
+}
+#Download{
+	margin-left: 48px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	line-height: 50px;
+	font-weight: 500;
+}
+.Download-block{
+	cursor: pointer;
+	float:right;
+	width: 150px;
+	height: 50px;
+	background-color: rgba(84,153,225,1.00);
+}
+.Download-block:hover{
+	background-color: rgba(92,157,224,1.00);
+}
+#Search-Button{
+	float:right;
+	background-color: rgba(0,0,0,0.00);
+	width: 30px;
+	height: 50px;
+	outline: none;
+	border: 0px;
+	cursor: pointer;
+}
+#Search{
+	float:right;
+	height: auto;
+	width: auto;
+}
+#Search-Block{
+    -webkit-transition-property: width,opacity; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: width,opacity;
+    transition-duration: 0.5s;
+	width: 0.1px;
+	margin-top: 5px;
+	height: 38px;
+	background-color: rgba(67,67,67,1.00);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border: 0px;
+	outline: none;
+	color: white;
+}
+#hidden-Search-Bar{
+	cursor: pointer;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 5px;
+	color: white;
+	float:right;
+	background-color: rgba(67,67,67,1.00);
+	border: 0px;
+	display: none;
+	outline: none;
+	height: 40px;
+	width: 40px;
+}
+.Market-Place{
+	margin-top: 2%;
+	max-width: 95%;
+	margin-left: 2%;
+	margin-right: 2%;
+	border-bottom: 1px solid rgba(148,148,148,1.00);
+	background-color: white;
+	float:left;
+	height: auto;
+}
+.Title{
+	float:left;
+	margin: 0px;
+	font-family: titleFont;
+	line-height: 50px;
+	font-size: 25px;
+	font-weight: bold;
+	color: rgba(34,34,34,1.00);
+	margin-right: 15%;
+}
+.Selection{
+	color: rgba(34,34,34,1.00);
+	font-family: titleFont-light;
+	line-height: 50px;
+	text-decoration: none;
+	font-weight: lighter;
+	padding-right: 1%;
+	padding-left: 1%;
+	transition-property: color;
+    transition-duration: 0.5s;
+	float:left;
+}
+.Market-Place a:hover{
+	background-color: rgba(236,236,236,1.00);
+	color: rgba(84,153,225,1.00);
+}
+.Market-Place input{
+	font-family: titleFont;
+	width: 20%;
+	height: 35px;
+	margin-top: 3px;
+	float:left;
+}
+#Search-Icon-Dark-Gray{
+	margin-left: 0.5%;
+	float:left;
+	width: 20px;
+	height: 20px;
+	margin-top: 15px;
+}
+.Container-Product{
+	clear: both;
+	float:left;
+	width: 90%;
+	height: auto;
+	padding: 2% 5%;
+}
+.product img{
+	margin: 0%;
+	width: 100%;
+	height: 100%;
+}
+.product{
+	cursor: pointer;
+	float:left;
+	position: relative;
+	width: 31.8%;
+	height: 100%;
+	margin-right: 0.75%;
+	margin-left: 0.75%;
+	margin-bottom: 5px;
+}
+.Product-Infor{
+    -webkit-transition-property: height; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: height;
+    transition-duration: 0.5s;
+	position: absolute;
+	background-color: rgba(0,0,0,0.23);
+	width: 100%;
+	height: 30%;
+	bottom: 2%;
+}
+.Product-Infor:hover{
+	height: 98%;
+}
+.Product-Infor:hover .more-info{
+	opacity: 1;
+}
+.Product-Infor:hover .feature{
+	display: none;
+}
+.Product-Infor:hover .name{
+	display: none;
+}
+.Product-Infor:hover .price{
+	display: none;
+}
+.more-info{
+	opacity: 0;
+	padding-top: 5%;
+	margin: 0%;
+    -webkit-transition-property: opacity; /* Safari */
+    -webkit-transition-duration: 1s; /* Safari */
+    transition-property: opacity;
+    transition-duration: 1s;
+	width: 100%;
+	height: 92%;
+}
+.more-info p{
+	margin: 0%;
+	margin-left: 2%;
+	color: white;
+	font-family: titleFont-light;
+}
+.more-info-platforms{
+	font-size: 13px;
+	font-weight: bold;
+	font-family: titleFont;
+}
+.more-info-version{
+	font-size: 13px;
+	font-weight: bold;
+	font-family: titleFont;
+}
+.version{
+	font-size: 13px;
+	font-family: titleFont;
+}
+.platforms-name{
+	font-size: 13px;
+	font-family: titleFont;
+}
+.feature{
+	margin-left: 2%;
+	background-color: rgba(84,153,225,1.00);
+	width: 80px;
+	height: 20px;
+	left: 2%;
+}
+.feature p{
+	color: white;
+	font-family: titleFont;
+	font-size: 12px;
+	font-weight: bolder;
+	line-height: 20px;
+	text-align: center;
+}
+.name{
+	float:left;
+	color: white;
+	font-family: titleFont;
+	margin-top: 2%;
+	margin-left: 2%;
+	font-size: 100%;
+}
+.price{
+	float:right;
+	color: white;
+	font-family: titleFont;
+	font-size: 100%;
+	margin-top: 2%;
+	margin-right: 2%;
+}
+.box-categories{
+	margin-top: 2%;
+	float:left;
+	margin-left: 3%;
+	width: 20%;
+	height: auto;
+}
+.categories{
+	transition-property: color;
+    transition-duration: 0.3s;
+	text-decoration: none;
+	color: rgba(78,205,227,1.00);
+	font-family: titleFont;
+}
+.categories:hover{color: rgba(84,153,225,1.00);}
+.new-product{
+	position: relative;
+	float:left;
+	background-color: rgba(225,88,90,1.00);
+	width: 18.2%;
+	height: 350px;
+	margin: 0;
+	margin-right: 1.75%;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+#container-new-product{
+	clear: both;
+	width: 90%;
+	padding: 2% 5%;
+}
+.Info-New-Product{
+	bottom: 0%;
+	position: absolute;
+	width: 100%;
+	height: 35%;
+	background-color: white;
+	border: 1px solid rgba(228,228,228,1.00);
+	border-top: none;
+	box-shadow: 0px 1px rgba(171,171,171,0.5);
+}
+.new-product:hover{
+	box-shadow: 5px 5px 3px 3px rgba(171,171,171,0.1);
+}
+.new-product:hover .Info-New-Product{
+	background-color: rgba(243,243,243,1.00);
+}
+.new-product-name{
+	margin: 0px;
+	margin-top: 5%;
+	font-family: titleFont-light;
+	font-weight: lighter;
+	width: 100%;
+	margin-left: 3%;
+}
+.Author{
+	margin: 0px;
+	margin-top: 5%;
+	text-decoration: none;
+	color: rgba(78,205,227,1.00);
+	font-family: titleFont;
+	font-size: 14px;
+	width: 100%;
+	margin-left: 3%;
+}
+.new-product-price{
+	font-family: titleFont;
+	color: rgba(131,131,131,1.00);
+	margin: 0;
+	float:right;
+	margin-right: 3%;
+}
+.Rating{
+	margin: 0px;
+	margin-top: 5%;
+	font-family: titleFont;
+	color: rgba(135,135,135,1.00);
+	width: 100%;
+	margin-left: 3%;
+}
+.new-banner{
+	right: 0%;
+	bottom: 30.5%;
+	position: absolute;
+	width: 30%;
+	height: 7%;
+	background-color: rgba(255,231,80,1.00);
+	text-align: center;
+	font-family: titleFont;
+	line-height: 180%;
+}
+.new-product-img{
+	width: 100%;
+	height: 65%;
+}
+
+/*Footer*/
+footer{
+	clear: both;
+	padding-top: 2%;
+	background-color: rgba(18,18,18,0.93);
+	width: 100%;
+	height: 300px;
+}
+.Social-Icon{
+	margin-left: 5%;
+	width: auto;
+	height: auto;
+}
+.Social-Icon i{
+    -webkit-transition-property: color,font-size; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: color,font-size;
+    transition-duration: 0.5s;
+	font-size: 32px;
+	color: rgba(197,197,197,1.00);
+	margin-left: 0.5%;
+	cursor: pointer;
+}
+.Social-Icon i:hover{
+	font-size: 31.5px;
+	color: rgba(84,153,225,1.00);
+}
+.left{
+	margin-top: 2%;
+	width: auto;
+	height: auto;
+	float:left;
+	margin-left: 5%;
+}
+.left p{
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	margin: 0;
+	margin-bottom: 1%;
+	color: rgba(220,220,220,1.00);
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}.left1{
+	margin-top: 2%;
+	width: auto;
+	height: auto;
+	float:left;
+	margin-left: 2.5%;
+}
+.left p:hover,.left1 p:hover{
+	color: rgba(84,153,225,1.00);
+}
+.left1 p{
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	margin: 0;
+	margin-bottom: 1%;
+	color: rgba(220,220,220,1.00);
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+#divide{
+	margin-top: 1%;
+	float:left;
+	border-bottom: 0.5px solid rgba(111,111,111,0.5);
+	height: 1%;
+	width: 90%;
+	margin-left: 5%;
+}
+#text-resource{
+	margin-top: 1%;
+	float:left;
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
+#text-resource p{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 13px;
+	color: rgba(166,166,166,1.00);
+}
+#Bottom-Footer{
+	height: auto;
+	width: auto;
+	margin-left: 6%;
+	float:left;
+}
+#Bottom-Footer a{
+	transition-property: color;
+    transition-duration: 0.5s;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: rgba(220,220,220,1.00);
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 13px;
+}
+#Bottom-Footer a:hover{
+	color: rgba(84,153,225,1.00);
+}
+#Right-Blue-Box{
+	cursor: pointer;
+	margin-top: 5%;
+	float:right;
+	width: auto;
+	height: 45px;
+	background-color: rgba(84,153,225,1.00);
+	margin-right: 5%;
+}
+#Right-Blue-Box p{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 45px;
+	margin: 0;
+	padding: 0 10px;
+}
+#Right-Blue-Box:hover{
+	background-color: rgba(92,157,224,1.00);	
+}

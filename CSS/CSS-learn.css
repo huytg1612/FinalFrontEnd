@@ -1,0 +1,623 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	font-family: Brutal-ExLight;
+	src: url(../Fonts/Brownfox-Brutal-Type-ExtraLight.otf);
+}
+body{
+	padding: 0px;
+	margin: 0px;
+}
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: rgba(18,18,18,0.93);
+}
+#Unreal-Icon{
+	float:left;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.Store-Name{
+	float: left;
+	font-family: 'Karla', sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	line-height: 50px;
+	margin-right: 5%;
+}
+#News{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Learn{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#About{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Community{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Marketplace{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+#Enterprise{
+	transition-property: color;
+    transition-duration: 0.5s;
+	margin-right: 1%;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	float: left;
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+}
+a#News:hover,a#New:focus{color: rgba(84,153,225,1.00);}
+a#About:hover,a#About:focus{color: rgba(84,153,225,1.00);}
+a#Learn:hover,a#Learn:focus{color: rgba(84,153,225,1.00);}
+a#Marketplace:hover,a#Marketplace:focus{color: rgba(84,153,225,1.00);}
+a#Community:hover,a#Community:focus{color: rgba(84,153,225,1.00);}
+a#Enterprise:hover,a#Enterprise:focus{color: rgba(84,153,225,1.00);}
+#Login-icon{
+	float:right;
+	width: 30px;
+	height: 30px;
+	margin-top: 10px;
+	margin-left: 1%;
+}
+#Login{
+	margin-right: 20px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: rgba(151,151,151,1.00);
+	font-size: 13px;
+	line-height: 50px;
+	font-weight: 500;
+	float:right;
+}
+#Search-icon{
+	filter: grayscale(100%);
+	width: 20px;
+	height: 20px;
+	float:right;
+}
+#Download{
+	margin-left: 48px;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	line-height: 50px;
+	font-weight: 500;
+}
+.Download-block{
+	cursor: pointer;
+	float:right;
+	width: 150px;
+	height: 50px;
+	background-color: rgba(84,153,225,1.00);
+}
+.Download-block:hover{
+	background-color: rgba(92,157,224,1.00);
+}
+#Search-Button{
+	float:right;
+	background-color: rgba(0,0,0,0.00);
+	width: 30px;
+	height: 50px;
+	outline: none;
+	border: 0px;
+	cursor: pointer;
+}
+#Search{
+	float:right;
+	height: auto;
+	width: auto;
+}
+#Search-Block{
+    -webkit-transition-property: width,opacity; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: width,opacity;
+    transition-duration: 0.5s;
+	width: 0.1px;
+	margin-top: 5px;
+	height: 38px;
+	background-color: rgba(67,67,67,1.00);
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	border: 0.1px;
+	outline: none;
+	color: white;
+}
+#hidden-Search-Bar{
+	cursor: pointer;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;
+	margin-top: 5px;
+	color: white;
+	float:right;
+	background-color: rgba(67,67,67,1.00);
+	border: 0px;
+	display: none;
+	outline: none;
+	height: 40px;
+	width: 40px;
+}
+video{
+	width: 100%;
+	height: 100%;
+}
+.Background-Video{
+	max-height: auto;
+	width: 100%;
+	position: relative;
+}
+#Text-On-Video{
+	font-family: Brutal-ExLight;
+	color: white;
+	top: 20%;
+	left: 50%;
+	position: absolute;
+	font-size: 45px;
+	transform: translate(-50%,-50%);
+}
+#Intro{
+	position: absolute;
+	background-color: rgba(223,223,223,0.71);
+	width: 90%;
+	height: 15%;
+	top: 67%;
+	padding: 5%;
+}
+#Intro p{
+	color: black;
+	font-family: Brutal-ExLight;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+}
+span{
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	color: rgba(84,153,225,1.00);
+}
+span:hover{
+	color: rgba(35,115,200,1.00);
+}
+#Your-Level{
+	padding-left: 8%;
+	padding-right: 8%;
+	float: left;
+	padding-top: 5%;
+	width: 84%;
+	max-height: auto;
+	background-color: rgba(241,241,241,1.00);
+	border-bottom: 2px solid rgba(228,228,228,1.00);
+	box-shadow: 0px 2px rgba(171,171,171,1);
+}
+.link{
+	font-weight: bold;
+	font-size: 20px;
+	color: black;
+	text-align: center;
+	font-family: Brutal-ExLight;
+	margin-bottom: 5%;
+}
+.Title{
+	margin: 0;
+	text-align: center;
+	font-family: Brutal-ExLight;
+	font-weight: bold;
+	margin-bottom: 6%;
+}
+.Level{
+	position: relative;
+	margin-right: 1.3%;
+	float:left;
+	width: 28%;
+	background-color: white;
+	height: 200px;
+	padding: 3% 2% 3% 2%;
+	margin-bottom: 5%;
+}
+.Name-Level{
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	font-family: Brutal-ExLight;
+	margin-bottom: 3%;
+}
+.Level p{
+	font-size: 14px;
+	margin: 0;
+	font-weight: bold;
+	text-align: center;
+	font-family: Brutal-ExLight;
+	margin-bottom: 15%;
+}
+.Learn-More{
+	transition-property: background-color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	left: 0%;
+	bottom: 10%;
+	position: absolute;
+	background-color: rgba(84,153,225,1.00);
+	width: 70%;
+	height: 25%;
+	border-radius: 2%;
+	margin: 0;
+	margin-left: 15%;
+}
+.Learn-More h3{
+	font-family: Brutal-ExLight;
+	text-align: center;
+	line-height: 150%;
+	color: white;
+}
+.Learn-More:hover{
+	background-color: rgba(120,174,231,1.00);
+}
+#News-Content{
+	padding-left: 8%;
+	padding-right: 8%;
+	float: left;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	width: 84%;
+	height: auto;
+	background-color: white;
+	border-bottom: 2px solid rgba(228,228,228,1.00);
+	box-shadow: 0px 2px rgba(171,171,171,1);
+}
+.Content{
+	position: relative;
+	float:left;
+	width: 23%;
+	height: 450px;
+	background-color: white;
+	margin-right: 1%;
+	margin-left: 1%;
+}
+.Content img{
+	width: 100%;
+	height: 40%;
+}
+.img-hover{
+	top: 0%;
+	cursor: pointer;
+	transition-property: opacity;
+    transition-duration: 0.3s;
+	position: absolute;
+	width: 100%;
+	height: 40%;
+	background-color: black;
+	opacity: 0;
+}
+.img-hover:hover{
+	opacity: 0.2;
+}
+.Content-Row{
+	float:left;
+	width: 100%;
+	height: auto;
+	margin-bottom: 1%;
+}
+.Date{
+	margin: 2% 0%;
+	font-size: 12px;
+	font-family: Brutal-ExLight;
+	color: black;
+}
+.Content-title{
+	cursor: pointer;
+	margin: 0;
+	font-family: Brutal-ExLight;
+}
+.Content-text{
+	font-size: 15px;
+	font-family: Brutal-ExLight;
+	margin: 0;
+	margin-top: 7%;
+}
+#See-More{
+	clear: both;
+	cursor: pointer;
+	transition-property: background-color;
+    transition-duration: 0.4s;
+	width: 15%;
+	height: 50px;
+	background-color: white;
+	border: 1px solid rgba(184,184,184,1.00);
+	
+}
+#Animation-Content{
+	display: none;
+}
+#Text-See{
+	transition-property: color;
+    transition-duration: 0.4s;
+	text-align: center;
+	line-height: 7px;
+	font-family: Brutal-ExLight;
+	font-weight: bold;
+}
+#See-More:hover{
+	background-color: rgba(84,153,225,1.00);
+}
+#See-More:hover #Text-See{
+	color: white;
+}
+#Platforms{
+	clear: both;
+	width: 90%;
+	height: 300px;
+	background-color: rgba(241,241,241,1.00);
+	padding: 2% 5%;
+}
+#Platforms h2{
+	font-family: Brutal-ExLight;
+	font-weight: bold;
+}
+#Platforms p{
+	font-size: 13px;
+	font-family: Brutal-ExLight;
+}
+.bottom{
+	float:left;
+	width: 100%;
+	height: auto;
+}
+.left-bottom{
+	padding: 7% 0%;
+	float:left;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(54,54,54,1.00);
+}
+.right-bottom{
+	padding: 7% 0%;
+	float:right;
+	width: 50%;
+	height: 100%;
+	background-color: rgba(86,86,86,1.00);
+}
+.sub-left{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.sub-left-title{
+	margin: 0;
+	margin-bottom: 5%;
+	color: white;
+	font-family: Brutal-ExLight;
+	font-size: 50px;
+	text-align: center;
+}
+.sub-left-content{
+	margin: 0;
+	color: white;
+	font-family: Brutal-ExLight;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.sub-right{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+.sub-right-title{
+	margin: 0;
+	margin-bottom: 5%;
+	color: white;
+	font-family: Brutal-ExLight;
+	font-size: 50px;
+	text-align: center;
+}
+.sub-right-content{
+	margin: 0;
+	color: white;
+	font-family: Brutal-ExLight;
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+}
+.Get-Unreal{
+	margin: 0;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	width: 27%;
+	height: 65px;
+	background-color: rgba(84,153,225,1.00);
+}
+.Get-Unreal p{
+	margin: 0;
+	line-height: 65px;
+	font-family: Brutal-ExLight;
+	font-weight: bold;
+}
+.span-bottom{
+	margin: 0;
+	margin-top: 5%;
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	color: rgba(84,153,225,1.00);
+}
+
+/*footer*/
+footer{
+	clear: both;
+	padding-top: 2%;
+	background-color: rgba(18,18,18,0.93);
+	width: 100%;
+	height: 300px;
+}
+.Social-Icon{
+	margin-left: 5%;
+	width: auto;
+	height: auto;
+}
+.Social-Icon i{
+    -webkit-transition-property: color,font-size; /* Safari */
+    -webkit-transition-duration: 0.5s; /* Safari */
+    transition-property: color,font-size;
+    transition-duration: 0.5s;
+	font-size: 32px;
+	color: rgba(197,197,197,1.00);
+	margin-left: 0.5%;
+	cursor: pointer;
+}
+.Social-Icon i:hover{
+	font-size: 31.5px;
+	color: rgba(84,153,225,1.00);
+}
+.left{
+	margin-top: 2%;
+	width: auto;
+	height: auto;
+	float:left;
+	margin-left: 5%;
+}
+.left p{
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	margin: 0;
+	margin-bottom: 1%;
+	color: rgba(220,220,220,1.00);
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}.left1{
+	margin-top: 2%;
+	width: auto;
+	height: auto;
+	float:left;
+	margin-left: 2.5%;
+}
+.left p:hover,.left1 p:hover{
+	color: rgba(84,153,225,1.00);
+}
+.left1 p{
+	transition-property: color;
+    transition-duration: 0.5s;
+	cursor: pointer;
+	margin: 0;
+	margin-bottom: 1%;
+	color: rgba(220,220,220,1.00);
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+}
+#divide{
+	margin-top: 1%;
+	float:left;
+	border-bottom: 0.5px solid rgba(111,111,111,0.5);
+	height: 1%;
+	width: 90%;
+	margin-left: 5%;
+}
+#text-resource{
+	margin-top: 1%;
+	float:left;
+	width: 90%;
+	height: auto;
+	margin-left: 5%;
+}
+#text-resource p{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-size: 13px;
+	color: rgba(166,166,166,1.00);
+}
+#Bottom-Footer{
+	height: auto;
+	width: auto;
+	margin-left: 6%;
+	float:left;
+}
+#Bottom-Footer a{
+	transition-property: color;
+    transition-duration: 0.5s;
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	color: rgba(220,220,220,1.00);
+	text-decoration: none;
+	font-weight: lighter;
+	font-size: 13px;
+}
+#Bottom-Footer a:hover{
+	color: rgba(84,153,225,1.00);
+}
+#Right-Blue-Box{
+	cursor: pointer;
+	margin-top: 5%;
+	float:right;
+	width: 20%;
+	height: 45px;
+	background-color: rgba(84,153,225,1.00);
+	margin-right: 5%;
+}
+#Right-Blue-Box p{
+	font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial," sans-serif";
+	font-weight: lighter;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+	line-height: 45px;
+	margin: 0;
+}
+#Right-Blue-Box:hover{
+	background-color: rgba(92,157,224,1.00);	
+}
